@@ -24,6 +24,20 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
 
 /*
 |--------------------------------------------------------------------------
+| Customer Factory
+|--------------------------------------------------------------------------
+*/
+
+$factory->define(App\Models\Customer::class, function (Faker\Generator $faker) {
+    return [
+
+        // Customer table data
+
+    ];
+});
+
+/*
+|--------------------------------------------------------------------------
 | UserMeta Factory
 |--------------------------------------------------------------------------
 */
